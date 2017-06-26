@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>js 继承</title>
+    </head>
+    <body>
+
+    </body>
+    <script type="text/javascript">
+        // Son 继承 Father
+        function Father() {
+            this.type = "human";
+        }
+
+        function Son() {
+            Father.apply(this, arguments);
+        }
+
+        var son = new Son();
+        son.type // human
+
+    </script>
+</html>

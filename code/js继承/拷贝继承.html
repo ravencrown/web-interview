@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>拷贝继承</title>
+    </head>
+    <body>
+
+    </body>
+    <script type="text/javascript">
+        function Father() {}
+        Father.prototype.type = "human";
+
+        function Son() {}
+
+        function extend(Child, Parent) {
+            var p = Parent.prototype;
+            var c = Child.prototype;
+            for (var i in p) {
+                c[i] = p[i];
+            }
+            c.uber = p;
+        }
+
+        extend(Son, Father);
+        var son = new Son();
+        console.log(son.type);
+
+    </script>
+</html>

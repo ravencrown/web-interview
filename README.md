@@ -1,3 +1,5 @@
 # Web Interview
 
-面试经验总结
+## JS
+
+- [JS 继承 -- 58面试题](https://github.com/guangxiao/web-interview/issues/1)

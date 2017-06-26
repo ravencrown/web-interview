@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>prototype 模式继承</title>
+    </head>
+    <body>
+
+    </body>
+    <script type="text/javascript">
+        // Son 继承 Father
+        function Father() {
+            this.type = "human";
+        }
+
+        function Son() {
+        }
+
+        Son.prototype = new Father();
+        var son = new Son();
+
+        console.log(Son.prototype.constructor == Father); // true
+        console.log(son.constructor == Father); // true
+        console.log(son.constructor == Son.prototype.constructor); // true
+
+        Son.prototype.constructor = Son;
+
+        console.log(Son.prototype.constructor == Father); // false
+        console.log(son.constructor == Son.prototype.constructor); // true
+
+
+
+    </script>
+</html>

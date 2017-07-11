@@ -2,6 +2,11 @@
 
 以下为一些公司的面试题，如对您有帮助，可以 Star
 
+面试跟相亲一样，看对眼和运气都很重要， Good Luck
+
+当然实力最重要，JS 的功底和 ES6 的熟练 和 jQuery 源码的熟悉都会对你的面试起到很大的帮助，
+也会很看重 HTML/CSS 的布局，包括已经几乎每个公司都会问的 左右布局，Flex 的用法，移动端的自适应等等
+
 ## JS
 
 - [JS 继承](https://github.com/guangxiao/web-interview/issues/1)
@@ -54,3 +59,13 @@
 
 - [Webpack 的用法](https://github.com/guangxiao/web-interview/issues/21)
 - [前端模块化和组件化的理解 ](https://github.com/guangxiao/web-interview/issues/12)
+
+## 框架
+
+- [Vue/Angular/React 之间的区别等等](https://github.com/guangxiao/web-interview/issues/38)
+- [Vue 的生命周期](https://github.com/guangxiao/web-interview/issues/39)
+- [Vue/Angular 的双向数据绑定原理](https://github.com/guangxiao/web-interview/issues/40)
+
+## 主观扩展
+
+- [扩展01](https://github.com/guangxiao/web-interview/issues/37)

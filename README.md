@@ -349,6 +349,7 @@ var name = "world";
 ### 18. Webpack 的代码分割，异步加载资源文件
 ### 19. [ES6 的动态加载，如何动态import](https://github.com/ravencrown/web-interview/issues/41)
 ### 20. 如何启动浏览器硬件加速，小Hack
+### 21. React/Vue/小程序 的语法的这些好处，坏处
 
 
 

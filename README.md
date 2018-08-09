@@ -347,7 +347,7 @@ var name = "world";
 ### 16. 怎么提高首屏加载速度
 ### 17. Node Proxy代理服务,如何把请求指向本地
 ### 18. Webpack 的代码分割，异步加载资源文件
-### 19. ES6 的动态加载，如何动态import
+### 19. [ES6 的动态加载，如何动态import](https://github.com/ravencrown/web-interview/issues/41)
 ### 20. 如何启动浏览器硬件加速，小Hack
 
 
